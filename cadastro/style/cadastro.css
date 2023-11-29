@@ -27,7 +27,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
-    width: 100%;
+    width: 99%;
 }
 main{
     padding: 0.5% 2% 0% 0%;
@@ -71,8 +71,8 @@ main#voltar{
 .button{
     border-radius: 1.875rem;
     background: var(--nfase, #F25C05);
-    box-shadow: 1px 1px 25px 1px rgba(0, 0, 0, 0.25) inset;
-    border-color: none;
+    box-shadow: 1px 1px 25px 5px rgba(0, 0, 0, 0.25) inset;
+    border: solid black 1px;
     width: 50%;
     height: 3.075rem;
     margin: 5% 24% 2% 24%;
