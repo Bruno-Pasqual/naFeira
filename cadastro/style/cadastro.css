@@ -20,7 +20,6 @@
     line-height: normal;
 }
 body {
-    
     font-size: var(--tam-fonte);
     background-image: url('../img/Desktop\ -\ 1.png');
     background-repeat: no-repeat;
@@ -71,7 +70,7 @@ main#voltar{
 .button{
     border-radius: 1.875rem;
     background: var(--nfase, #F25C05);
-    box-shadow: 1px 1px 25px 5px rgba(0, 0, 0, 0.25) inset;
+    box-shadow: 1px 1px 25px 1px rgba(0, 0, 0, 0.25) inset;
     border: solid black 1px;
     width: 50%;
     height: 3.075rem;
