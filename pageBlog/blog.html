@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,51 @@
     <link rel="stylesheet" href="styleBlog.css">
     <title>Blog - naFeira</title>
 </head>
+
 <body>
     <header>
         <nav>
             <div id="hamburguer-menu">Hamburguer</div>
             <img src="/imgs/logo-nav.svg" alt="logo nafeira" id="logo-nav" />
             <ul id="links-container">
-              <li><a href="#" class="active">Cardapio</a></li>
-              <li><a href="#">Assinatura</a></li>
-              <li><a href="#">Blog</a></li>
-              <!--  <li><a href="#">Sobre nós</a></li> -->
+                <li><a href="#" class="active">Cardapio</a></li>
+                <li><a href="#">Assinatura</a></li>
+                <li><a href="#">Blog</a></li>
+                <!--  <li><a href="#">Sobre nós</a></li> -->
             </ul>
             <div id="buttons-container">
-              <button>entrar</button>
-              <button>criar sua conta</button>
+                <button>entrar</button>
+                <button>criar sua conta</button>
             </div>
-          </nav>
+        </nav>
     </header>
-    <section>
-        <div id="banner">
-            <h2>BLOG ESTIMA NUTRIÇÃO</h2>
+    <section id="banner">
+        <h2>BLOG ESTIMA NUTRIÇÃO</h2>
+    </section>
+    <section id="busque">
+        <div>
+            <h3>Busque Aqui</h3>
+        </div>
+        <div>
+            <form class="d-flex" role="search">
+                <input class="form-control" type="search" placeholder="   Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+    <section id="container">
+        <div id="noticias">
+            <div class="artigo" id="not1">
+                Noticia 1
+            </div>
+            <div class="artigo" id="not2">
+                Noticia 1
+            </div>
+        </div>
+        <div>
+            Noticia 1
         </div>
     </section>
 </body>
+
 </html>

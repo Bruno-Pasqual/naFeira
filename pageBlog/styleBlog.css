@@ -1,0 +1,48 @@
+#banner{
+    background-color: aliceblue;
+    background-image: url('../imgs/salada-de-tomate-pepino-cebola-roxa-e-folhas-de-alface-menu-de-vitamina-verao-saudavel-comida-vegetal-vegana-mesa-de-jantar-vegetariana.jpg');
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#busque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-control{
+    width: 100vw;
+    max-width: 1000px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d2d2d2;
+    margin-top: 30px;
+}
+
+.btn{
+    height: 30px;
+    
+}
+
+.artigo{
+    border: 1px solid red;
+    width: 100vw;
+    max-width: 400px;
+    height: 500px;
+    display: flex;
+}
+
+#noticias{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
