@@ -1,0 +1,55 @@
+body {
+  background: #1d6711;
+  display: grid;
+  place-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  row-gap: 5rem;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  max-width: 500px;
+  row-gap: 1rem;
+  margin: 0 auto;
+}
+
+input {
+  padding: 0.75rem 0 0.75rem 1rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0.75rem 0 0.75rem 0;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  text-align: center;
+  border: none;
+}
+
+#login-btn {
+  background: #f25c05;
+  color: white;
+}
+
+#create-account-btn {
+  background: #059954;
+  color: white;
+
+  text-decoration: none;
+}
