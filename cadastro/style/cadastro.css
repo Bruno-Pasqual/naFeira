@@ -61,7 +61,7 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 2% 0% 1% 0%;
+    margin: 2% 8% 1% 8%;
     justify-content: space-evenly;
 }
 .inputcadastro{
@@ -99,7 +99,10 @@ main{
     height: 19.75rem;
 }
 .linha{
-    height: 10px;
-    border: solid white 1px;
-    padding-left: 8.5%;
+    width: 0.0625rem;
+    height:19.75rem;
+    background-color:rgb(255, 255, 255);
+    border:none;
+    margin-top: 0;
+    opacity: 1.00;
 }
