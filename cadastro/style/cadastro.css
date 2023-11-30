@@ -90,3 +90,19 @@ p{
 #section1, #section3, #section5{
     padding: 2% 2% 2% 0%;
 }
+#esquerda{
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+#direita{
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
