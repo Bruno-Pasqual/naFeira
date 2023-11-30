@@ -19,6 +19,12 @@
     font-weight: 300;
     line-height: normal;
 }
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 body {
     font-size: var(--tam-fonte);
     background-image: url('../img/Desktop\ -\ 1.png');
@@ -29,80 +35,71 @@ body {
     width: 99%;
 }
 main{
-    padding: 0.5% 2% 0% 0%;
-    margin: 0% 25% 1% 25%;
-    width: 55%;
-    height: min-content;
+    margin: 3% 0% 1% 18%;
+    width: 65%;
+    height: fit-content;
+    padding-left: 1%;
+    padding-top: 1%;
     flex-shrink: 0;
     border-radius: 0.5rem;
     background: var(--cor-primaria, #059954);
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-header.row{
+#logo{
+    width: 20.5625rem;
+    height: 6.6875rem;
+}
+#voltar{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-main#voltar{
-    padding: 0%;
+    justify-content: flex-start;
+    align-items: baseline;
 
-}
-.sectionleft{
-    margin: 0% 0% 0% 8%;
-}
-.sectionright{
-    margin: 0% 8% 0% 0%;
 }
 #divisao{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 5% 0% 0% 5%;
+    margin: 2% 0% 1% 0%;
+    justify-content: space-evenly;
 }
 .inputcadastro{
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    border-bottom: solid 0.15rem white;
+    width: 99%;
+    border-bottom: solid 0.14rem white;
     border-radius: 0%;
-    padding: 3% 0%;
+    padding: 3.5%;
+}
+.padding{
+    padding: 2%;
+}
+.margemup{
+    margin-top: 8%;
 }
 .button{
     border-radius: 1.875rem;
     background: var(--nfase, #F25C05);
-    box-shadow: 1px 1px 25px 1px rgba(0, 0, 0, 0.25) inset;
-    border: solid black 1px;
+    box-shadow: 1px 1px 25px 1px rgba(0, 0, 0, 0.368) inset;
     width: 50%;
     height: 3.075rem;
-    margin: 5% 24% 2% 24%;
+    margin: 1% 24% 5% 24%;
+
+    color: var(--titulo,  #FFF);
+    font-family: 'Roboto Condensed';
+    font-size: var(--tam-fonte);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-#logo{
-    margin: 1% 0% 0.5% 0%;
+.bloco{
+    /* border: solid black 1px; */
+    width: 18.25rem;
+    height: 19.75rem;
 }
-p{
-    padding-top: 1%;
-    display: flex;
-    align-items: center;
-}
-#section2, #section4, #section6{
-    padding: 2% 0% 2% 2%;
-}
-#section1, #section3, #section5{
-    padding: 2% 2% 2% 0%;
-}
-#esquerda{
-    border: solid black 1px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-}
-#direita{
-    border: solid black 1px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
+.linha{
+    height: 10px;
+    border: solid white 1px;
+    padding-left: 8.5%;
 }
