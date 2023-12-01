@@ -25,6 +25,10 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+#logo{
+    width: 20.5625rem;
+    height: 6.6875rem;
+}
 body {
     font-size: var(--tam-fonte);
     background-image: url('../img/Desktop\ -\ 1.png');
@@ -45,10 +49,6 @@ main{
     background: var(--cor-primaria, #059954);
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-#logo{
-    width: 20.5625rem;
-    height: 6.6875rem;
-}
 #voltar{
     display: flex;
     flex-direction: row;
@@ -64,6 +64,11 @@ main{
     margin: 2% 8% 1% 8%;
     justify-content: space-evenly;
 }
+.bloco{
+    /* border: solid black 1px; */
+    width: 18.25rem;
+    height: 19.75rem;
+}
 .inputcadastro{
     background-color: rgba(255, 255, 255, 0);
     border: none;
@@ -71,12 +76,42 @@ main{
     border-bottom: solid 0.14rem white;
     border-radius: 0%;
     padding: 3.5%;
+    color: #DFDFDF;
 }
 .padding{
     padding: 2%;
 }
 .margemup{
     margin-top: 8%;
+}
+@media (min-width: 1114px) {
+    .linha{
+        width: 0.0625rem;
+        height:19.75rem;
+        background-color:rgb(255, 255, 255);
+        border:none;
+        margin-top: 0;
+        opacity: 1.00;
+    }
+}
+@media (max-width: 1114px) {
+    #divisao{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    main{
+        width: 50%;
+        margin: 3% 0% 1% 25%;
+        padding: 1% 0%;
+    }
+    .bloco{
+        width: auto;
+        border-left: solid #DFDFDF 0.14rem;
+        border-right: solid #dfdfdf 0.14rem;
+        padding: 0% 2%;
+    }
 }
 .button{
     border-radius: 1.875rem;
@@ -92,17 +127,4 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-.bloco{
-    /* border: solid black 1px; */
-    width: 18.25rem;
-    height: 19.75rem;
-}
-.linha{
-    width: 0.0625rem;
-    height:19.75rem;
-    background-color:rgb(255, 255, 255);
-    border:none;
-    margin-top: 0;
-    opacity: 1.00;
 }
