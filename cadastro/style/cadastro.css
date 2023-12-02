@@ -1,3 +1,4 @@
+
 :root{
     --tam-fonte: 1.25rem;
 }
@@ -26,8 +27,12 @@ header{
     justify-content: space-around;
 }
 #logo{
-    width: 20.5625rem;
-    height: 6.6875rem;
+    width: 18.5625rem;
+    height: 4.6875rem;
+    margin-bottom: 3%;
+}
+.link{
+    text-decoration: none;
 }
 body {
     font-size: var(--tam-fonte);
@@ -39,9 +44,9 @@ body {
     width: 99%;
 }
 main{
-    margin: 3% 0% 1% 18%;
+    margin: 0% 0% 1% 18%;
     width: 65%;
-    height: fit-content;
+    height: max-content;
     padding-left: 1%;
     padding-top: 1%;
     flex-shrink: 0;
@@ -56,6 +61,9 @@ main{
     justify-content: flex-start;
     align-items: baseline;
 
+}
+a{
+    text-decoration: none;
 }
 #divisao{
     display: flex;
@@ -117,9 +125,9 @@ main{
     border-radius: 1.875rem;
     background: var(--nfase, #F25C05);
     box-shadow: 1px 1px 25px 1px rgba(0, 0, 0, 0.368) inset;
-    width: 50%;
+    width: 35%;
     height: 3.075rem;
-    margin: 1% 24% 5% 24%;
+    margin: 0% 32% 2.5% 32%;
 
     color: var(--titulo,  #FFF);
     font-family: 'Roboto Condensed';
