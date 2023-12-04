@@ -3,38 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NAFEIRA - Home</title>
-    <link rel="stylesheet" href="./styles/homePage.css" />
-    <script src="./scripts/pageCheck.js" defer></script>
-    <link rel="stylesheet" href="./styles/nav.css" />
+    <title>NAFEIRA - Assinaturas</title>
+
+    <script src="../scripts/pageCheck.js" defer></script>
+    <link rel="stylesheet" href="../styles/nav.css" />
     <link
       rel="shortcut icon"
-      href="./imgs/icons/favicon.ico"
+      href="../imgs/icons/favicon.ico"
       type="image/x-icon"
     />
   </head>
-  <body onload="pageCheck('homePage')">
+  <body onload="pageCheck('assinatura')">
     <nav>
       <div id="hamburguer-menu">Hamburguer</div>
-      <a href="./homePage.html"
-        ><img src="./imgs/logo-nav.svg" alt="logo nafeira" id="logo-nav"
+      <a href="../homePage.html"
+        ><img src="../imgs/logo-nav.svg" alt="logo nafeira" id="logo-nav"
       /></a>
       <ul id="links-container">
         <li>
-          <a href="./homePage.html" class="nav-link" data-value="homePage"
+          <a
+            href="../homePage.html"
+            class="nav-link active"
+            data-value="homePage"
             >Cardapio</a
           >
         </li>
         <li>
-          <a
-            class="nav-link"
-            href="./pages/assinatura.html"
-            data-value="assinatura"
+          <a class="nav-link" href="./assinatura.html" data-value="assinatura"
             >Assinatura</a
           >
         </li>
         <li>
-          <a class="nav-link" href="/pages/blog.html" data-value="blog">Blog</a>
+          <a class="nav-link" href="./blog.html" data-value="blog">Blog</a>
         </li>
       </ul>
       <div id="buttons-container">
