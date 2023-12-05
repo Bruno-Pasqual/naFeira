@@ -18,4 +18,6 @@ const pageCheck = () => {
       link.classList.remove('active');
     }
   });
+
+  console.log('rodei');
 };
