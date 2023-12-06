@@ -71,6 +71,19 @@ nav {
   #icons-container {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+  }
+
+  .nav-icon {
+    transition: all 0.5s;
+    height: 30px;
+    opacity: 0.5;
+  }
+
+  .nav-icon.ativo {
+    height: 50px;
+    opacity: 1;
   }
 }
