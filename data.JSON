@@ -1,16 +1,187 @@
-[
-  {
-    "nome": "Produto 1",
-    "preco": 19.99,
-    "descricao_curta": "Descrição curta do Produto 1",
-    "imagem": "https://exemplo.com/imagem1.jpg",
-    "categoria": "peixe"
-  },
-  {
-    "nome": "Produto 2",
-    "preco": 29.99,
-    "descricao_curta": "Descrição curta do Produto 2",
-    "imagem": "https://exemplo.com/imagem2.jpg",
-    "categoria": "fruta"
-  }
-]
+{
+  "frutas": [
+    {
+      "nome": "Maçã",
+      "preco": 2.99,
+      "descricao_curta": "Maçã fresca e suculenta",
+      "imagem": "https://teravirt.s3-accelerate.amazonaws.com/uploads/sites/95/2021/06/MACA-IMPORTADA.jpg",
+      "categoria": "fruta"
+    },
+    {
+      "nome": "Banana",
+      "preco": 1.49,
+      "descricao_curta": "Banana madura e doce",
+      "imagem": "https://ceagesp.gov.br/wp-content/uploads/2017/08/banana-prata-beneficios-412x288.jpg",
+      "categoria": "fruta"
+    },
+    {
+      "nome": "Morango",
+      "preco": 4.99,
+      "descricao_curta": "Morangos frescos colhidos",
+      "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/cenourao/media/uploads/produtos/foto/nhkgvszz/morango.jpg",
+      "categoria": "fruta"
+    },
+    {
+      "nome": "Abacaxi",
+      "preco": 3.99,
+      "descricao_curta": "Abacaxi tropical suculento",
+      "imagem": "https://www.bernardaoemcasa.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/b/abacaxi_6.jpg",
+      "categoria": "fruta"
+    },
+    {
+      "nome": "Melancia",
+      "preco": 5.99,
+      "descricao_curta": "Melancia grande e refrescante",
+      "imagem": "https://revistacampoenegocios.com.br/wp-content/uploads/2020/11/Melancia-01.jpg",
+      "categoria": "fruta"
+    }
+  ],
+  "peixes": [
+    {
+      "nome": "Salmão",
+      "preco": 29.99,
+      "descricao_curta": "Salmão fresco do dia",
+      "imagem": "https://img.freepik.com/fotos-gratis/fatia-de-salmao-cru_144627-11089.jpg?w=740&t=st=1701886936~exp=1701887536~hmac=0d8f35d570d0506a333e03153041f229cb24ff3ff073cb8f21012b544cae03bc",
+      "categoria": "peixe"
+    },
+    {
+      "nome": "Tilápia",
+      "preco": 15.99,
+      "descricao_curta": "Filé de tilápia fresco",
+      "imagem": "https://img.freepik.com/fotos-gratis/tilapia-crua_1339-896.jpg?w=740&t=st=1701886977~exp=1701887577~hmac=2fc2bb8b2dedd8e89901c66cb0b00587abc242071edac19c04f850322fe9f7d2",
+      "categoria": "peixe"
+    },
+    {
+      "nome": "Atum",
+      "preco": 9.99,
+      "descricao_curta": "Atum enlatado de alta qualidade",
+      "imagem": "https://img.freepik.com/fotos-gratis/arranjo-de-frutos-do-mar-saudaveis_23-2148926818.jpg?w=740&t=st=1701887133~exp=1701887733~hmac=d1a54c7fb2f9ab8991e9df7d4a3c0dd63394399b4024cc8af7300e2722518e14",
+      "categoria": "peixe"
+    },
+    {
+      "nome": "Bacalhau",
+      "preco": 25.99,
+      "descricao_curta": "Bacalhau fresco importado",
+      "imagem": "https://img.freepik.com/fotos-gratis/metades-de-peixe-com-folhas-de-salsa_23-2148708667.jpg?w=740&t=st=1701887181~exp=1701887781~hmac=6e38a3b6cb0803bb4f68703133296b5109005df308a668ecc8908877a90b03d9",
+      "categoria": "peixe"
+    },
+    {
+      "nome": "Sardinha",
+      "preco": 7.99,
+      "descricao_curta": "Sardinhas em lata",
+      "imagem": "https://img.freepik.com/fotos-gratis/peixe-fresco-e-delicioso_144627-24497.jpg?w=740&t=st=1701887223~exp=1701887823~hmac=b86fbb56866c5c4370a8587635d552ce6367fa59dc5b7a56c6bf3fa39d4aaadc",
+      "categoria": "peixe"
+    }
+  ],
+  "legumes": [
+    {
+      "nome": "Abóbora",
+      "preco": 3.49,
+      "descricao_curta": "Abóbora orgânica",
+      "imagem": "https://img.freepik.com/fotos-gratis/abobora-fresca_1339-282.jpg?w=740&t=st=1701887270~exp=1701887870~hmac=a2c1f7ee576eacc49fc02c79de671a5a103693fdeb585cd63beddb033f7cfb9d",
+      "categoria": "legume"
+    },
+    {
+      "nome": "Batata",
+      "preco": 2.29,
+      "descricao_curta": "Batatas frescas da estação",
+      "imagem": "https://img.freepik.com/fotos-gratis/fundo-frescos-batatas-perto-nutricao_1203-6026.jpg?w=740&t=st=1701887294~exp=1701887894~hmac=1c34b37015e3f905c1464cb8bef127ccd084bc49878eb8218540679535e22dc3",
+      "categoria": "legume"
+    },
+    {
+      "nome": "Cenoura",
+      "preco": 1.99,
+      "descricao_curta": "Cenouras crocantes e saudáveis",
+      "imagem": "https://img.freepik.com/fotos-gratis/mini-cenouras_1339-7954.jpg?w=740&t=st=1701887312~exp=1701887912~hmac=cabb5588709891ee87c0b2968edf2b6ea66a91763ff0f28ed16c2f346dd7a1f8",
+      "categoria": "legume"
+    },
+    {
+      "nome": "Berinjela",
+      "preco": 3.79,
+      "descricao_curta": "Berinjela fresca e roxa",
+      "imagem": "https://img.freepik.com/fotos-gratis/berinjela_144627-18693.jpg?w=740&t=st=1701887331~exp=1701887931~hmac=068ef4e58fcc93d0f77f97d0337c746ab94e86f732f0d91365f8e5b4013bcfe9",
+      "categoria": "legume"
+    },
+    {
+      "nome": "Abobrinha",
+      "preco": 2.49,
+      "descricao_curta": "Abobrinha verde e saborosa",
+      "imagem": "https://img.freepik.com/fotos-gratis/zucchini-fresco_1339-1502.jpg?w=740&t=st=1701887359~exp=1701887959~hmac=e2bb19de4750624bcf0c85fdf5a655b688edb7762fe13e3c8bdf07baeaae97fa",
+      "categoria": "legume"
+    }
+  ],
+  "verduras": [
+    {
+      "nome": "Alface",
+      "preco": 1.99,
+      "descricao_curta": "Folhas frescas de alface",
+      "imagem": "https://img.freepik.com/fotos-gratis/alface-fresca-isolada_144627-30015.jpg?w=740&t=st=1701887390~exp=1701887990~hmac=47010a3f188f69648feff05a67ce1d6854207ff04e0f206ff38a8352f2932bd6",
+      "categoria": "verdura"
+    },
+    {
+      "nome": "Espinafre",
+      "preco": 2.49,
+      "descricao_curta": "Espinafre orgânico",
+      "imagem": "https://img.freepik.com/fotos-gratis/espinafre-em-cima-da-mesa_144627-20711.jpg?w=996&t=st=1701887411~exp=1701888011~hmac=cf02f9db9232975a6a5112c73ae2d93a04afd24f63576d6e5c25f60f2f3765fd",
+      "categoria": "verdura"
+    },
+    {
+      "nome": "Couve",
+      "preco": 1.79,
+      "descricao_curta": "Folhas verdes de couve",
+      "imagem": "https://img.freepik.com/fotos-gratis/raw-natureza-branco-saude-fundo_1203-5950.jpg?w=740&t=st=1701887429~exp=1701888029~hmac=113bdb11017d875af6cec1ef7242e783ad78a0c0eeffa2b28a0c46ffbfc83721",
+      "categoria": "verdura"
+    },
+    {
+      "nome": "Rúcula",
+      "preco": 2.29,
+      "descricao_curta": "Rúcula fresca e picante",
+      "imagem": "https://img.freepik.com/fotos-gratis/espinafre-em-cima-da-mesa_144627-20714.jpg?w=360&t=st=1701887811~exp=1701888411~hmac=b492ed1c5ff2de20cc096fd2f50f595e18cd0e7cddccc976af8e64fda97a3306",
+      "categoria": "verdura"
+    },
+    {
+      "nome": "Agrião",
+      "preco": 1.99,
+      "descricao_curta": "Agrião cultivado naturalmente",
+      "imagem": "https://img.freepik.com/fotos-gratis/uma-bandeja-de-agriao-fresco-no-fundo-de-marmore_114579-67007.jpg?w=740&t=st=1701887863~exp=1701888463~hmac=1baf04e725fc281c97ace354744136c99c1d8cc0f5cdc9fd0b87791ceddb93bd",
+      "categoria": "verdura"
+    }
+  ],
+  "temperos": [
+    {
+      "nome": "Cebolinha",
+      "preco": 0.99,
+      "descricao_curta": "Cebolinha verde e fresca",
+      "imagem": "https://img.freepik.com/fotos-gratis/cebolinha-isolada-no-fundo-branco_74190-2925.jpg?w=740&t=st=1701887892~exp=1701888492~hmac=6d4c7018c6ebe1e4dcf682e02eab944ac28d93842734d69f5bb2de14ad9e14d9",
+      "categoria": "tempero"
+    },
+    {
+      "nome": "Alho",
+      "preco": 1.29,
+      "descricao_curta": "Alho fresco e saudável",
+      "imagem": "https://img.freepik.com/fotos-gratis/alho-em-uma-superficie-branca_144627-45191.jpg?w=740&t=st=1701887915~exp=1701888515~hmac=7823edb8fe84dc0bd91d2cabb3d8fe90dc3285898c0c5ae9a9116bed932d72fb",
+      "categoria": "tempero"
+    },
+    {
+      "nome": "Salsa",
+      "preco": 0.79,
+      "descricao_curta": "Salsa fresca para temperar",
+      "imagem": "https://img.freepik.com/fotos-gratis/salsa-fresca-isolada_144627-30012.jpg?w=740&t=st=1701887956~exp=1701888556~hmac=ca7724c46069e79b8660dabce792a55168dc41aea0ab08be3ec4b66a89190267",
+      "categoria": "tempero"
+    },
+    {
+      "nome": "Cebola",
+      "preco": 0.89,
+      "descricao_curta": "Cebola roxa orgânica",
+      "imagem": "https://img.freepik.com/fotos-gratis/cebola-vermelha_144627-15416.jpg?w=740&t=st=1701887977~exp=1701888577~hmac=850aafb499464ca7af132a27ae61cd793a29a40a33928de421a47380b752b5b7",
+      "categoria": "tempero"
+    },
+    {
+      "nome": "Manjericão",
+      "preco": 1.49,
+      "descricao_curta": "Manjericão fresco e aromático",
+      "imagem": "https://img.freepik.com/fotos-gratis/manjericao-verde-fresco-em-caixas-plasticas-em-concreto-cinza_114579-3794.jpg?w=740&t=st=1701888065~exp=1701888665~hmac=7de9e07610a2e710a18ba868ab902449a3314ccc705618a797eb7e863e55b076",
+      "categoria": "tempero"
+    }
+  ]
+}
