@@ -3,12 +3,14 @@
     "nome": "Produto 1",
     "preco": 19.99,
     "descricao_curta": "Descrição curta do Produto 1",
-    "imagem": "https://exemplo.com/imagem1.jpg"
+    "imagem": "https://exemplo.com/imagem1.jpg",
+    "categoria": "peixe"
   },
   {
     "nome": "Produto 2",
     "preco": 29.99,
     "descricao_curta": "Descrição curta do Produto 2",
-    "imagem": "https://exemplo.com/imagem2.jpg"
+    "imagem": "https://exemplo.com/imagem2.jpg",
+    "categoria": "fruta"
   }
 ]
