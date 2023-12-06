@@ -56,8 +56,10 @@ nav {
 @media (max-width: 640px) {
   nav {
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    z-index: 1;
+    box-shadow: 0px -6px 4px rgba(0, 0, 0, 0.048);
   }
 
   #logo-icon,
