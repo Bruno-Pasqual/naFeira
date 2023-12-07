@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./style/footer.css" />
     <link rel="stylesheet" href="./style/homePage.css" />
     <link rel="stylesheet" href="./style/modais.css" />
+
     <!-- Styles -->
 
     <!-- Scripts -->
@@ -182,14 +183,73 @@
         </div>
       </div>
     </footer>
-    <dialog id="create-modal">
-      <div class="container-inputs">
-        <div class="container">
-          <div class="input-container">
-            <label for="input-nome"></label>
-          </div>
-        </div>
-      </div>
+    <dialog id="create-account-modal">
+      <!-- Botão voltar -->
+      <a href="#" class="link" id="voltar-btn-create">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" viewBox="0 0 42 46" fill="none">
+                    <path d="M33 9.30834L29.9494 6.11292L13 23.9856L29.9666 41.8583L33 38.6629L19.0668 23.9856L33 9.30834Z" fill="white"/>
+                    <path d="M43 9.19542L39.9494 6L23 23.8727L39.9666 41.7454L43 38.55L29.0668 23.8727L43 9.19542Z" fill="white"/>
+                </svg>
+           
+            <p class="roboto_condensed_bold">voltar</p>
+    </a>
+    
+    <div id="divisao">
+      <div id="esquerda" class="bloco">
+            <!-- Nome -->
+            <section id="section1">
+                <div>
+                    <div><label class="roboto_condensed_bold padding">Nome</label></div>
+                    <input type="text"  placeholder="Insira seu Nome"  size="40" maxlength="80">
+                  </div>
+            </section>
+            <!-- Senha -->
+            <section id="section3" class="margemup">
+                <div>
+                    <div><label class="roboto_condensed_bold padding">Senha</label></div>
+                    <input class="inputcadastro roboto_condensed_light"  type="password" id="inputsenha" placeholder="Insira sua Senha"  size="40" minlength="8" required>
+                  </div>
+            </section>
+            <!-- Endereço -->
+            <section id="section5" class="margemup">
+                <div>
+                    <div><label class="roboto_condensed_bold padding">Endereço</label></div>
+                    <input class="inputcadastro roboto_condensed_light"  type="text"id="inputendereco" placeholder="Insira seu Endereço"  size="40">
+                  </div>
+            </section>
+        </div>      
+       <div>
+                <!-- Email -->
+                <section >
+                    <div>
+                        <div><label>Email</label></div>
+                        <input type="text" id="inputemail" placeholder="Insira seu Email"  size="40">
+                      </div>
+                </section>
+            
+                <!-- Confirmar senha -->
+                <section id="section4" class="margemup">
+                    <div>
+                        <div><label>Confirmar senha</label></div>
+                        <input type="password" id="inputconfirmar" placeholder="Confirme sua senha"  size="20" minlength="8" required>
+                      </div>
+                </section>
+            
+                <!-- Telefone -->
+                <section >
+                    <div>
+                        <div><label >Telefone</label></div>
+                        <input type="tel" id="inputtelefone" placeholder="Insira seu Telefone/Celular" size="20">
+                      </div>
+                </section>
+           </div>
+    </div>
+        
+
+
+        <button id="cadastrar-btn" >Cadastrar</button>
+
+      </section>
     </dialog>
   </body>
 </html>

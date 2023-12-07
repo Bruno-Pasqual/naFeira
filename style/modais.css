@@ -1,18 +1,92 @@
-#create-modal {
+#create-account-modal {
+  padding: 6rem 4rem;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.295);
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 600px;
-  width: 70%;
-  border: none;
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
-  box-shadow: 3px 5px 6px black;
-  background: #059954;
+  background-color: #059954;
 }
 
-#create-modal::backdrop {
-  background-color: rgba(0, 0, 0, 0.822);
+#create-account-modal::backdrop {
+  background: rgba(0, 0, 0, 0.692);
+}
+
+#divisao {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#create-account-modal label {
+  color: white;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.692);
+}
+
+#create-account-modal input {
+  width: 300px;
+  margin: 0.5rem 0 1.5rem 0;
+  padding: 0.5rem 0;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  font-size: 1.25rem;
+}
+
+#create-account-modal input:focus {
+  color: white;
+}
+#create-account-modal input::placeholder {
+  color: #dfdfdf;
+  opacity: 0.6;
+}
+
+#create-account-modal button {
+  width: 300px;
+  padding: 0.5rem 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  background: #f25c05;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 0;
+  cursor: pointer;
+}
+
+#create-account-modal button:hover {
+  opacity: 0.8;
+}
+
+#voltar-btn-create {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  column-gap: 1rem;
+  max-width: 6rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+@media (max-width: 840px) {
+  #divisao {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  #create-account-modal {
+    top: 52%;
+  }
 }

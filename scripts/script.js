@@ -1,8 +1,16 @@
-const createBtn = document.querySelector('#create-btn');
-const entrarBtn = document.querySelector('#entrar-btn');
+const createAccountBtn = document.querySelector('#create-btn');
+const createAccountModal = document.querySelector('#create-account-modal');
+const botaoVoltarCreateAccount = document.querySelector('#voltar-btn-create');
+const cadastrarBtn = document.querySelector('#cadastrar-btn');
 
-const createModal = document.querySelector('#create-modal');
+createAccountBtn.addEventListener('click', () => {
+  createAccountModal.showModal();
+});
 
-createBtn.addEventListener('click', () => {
-  createModal.showModal();
+botaoVoltarCreateAccount.addEventListener('click', () => {
+  createAccountModal.close();
+});
+
+cadastrarBtn.addEventListener('click', () => {
+  createAccountModal.close();
 });
