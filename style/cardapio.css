@@ -26,13 +26,13 @@
   background-color: black;
   background: url('https://www.lotescbl.com.br/wp-content/uploads/2019/04/feiras-livres.jpg');
   height: 300px;
+  border-radius: 8px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
   max-width: 1460px;
-  margin: 8rem auto 0 auto;
-  border-radius: 8px;
+  margin: 6rem auto 8rem auto;
   background-position-y: 20px;
 }
 
@@ -75,6 +75,10 @@
   position: relative;
 }
 
+#container-sugestoes-chef .container-title {
+  top: -60px;
+}
+
 .container-cards-produtos {
   display: flex;
   flex-wrap: wrap;
@@ -84,38 +88,42 @@
 
 .product-card {
   width: 400px;
-  height: 300.6px;
+  height: 300px;
   box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.055);
+  border-radius: 20px 20px 0 0;
 }
 
-.product-card:last-child {
+.product-card:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 .product-img {
-  height: 200px;
   width: 100%;
-  background-image: url('/imgs/produtos/repolho.svg');
-  background-size: cover;
-  background-position: center;
+  height: 65%;
+  background-image: url('https://ceagesp.gov.br/wp-content/uploads/2015/09/repolho_liso-600x469.jpg');
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px 20px 0 0;
 }
 
 .product-img.batata {
-  background-image: url('/imgs/produtos/batata.svg');
+  background-image: url('https://conteudo.imguol.com.br/c/entretenimento/0e/2017/10/15/batata-crua-1508077604971_v2_1920x1269.jpg');
 }
 
 .product-img.abobrinha {
-  background-image: url('/imgs/produtos/abobrinha.svg');
+  background-image: url('https://ceagesp.gov.br/wp-content/uploads/2016/10/portalbobrinhabrasileira-600x469.jpg');
 }
 
 .product-img.cenoura {
-  background-image: url('/imgs/produtos/cenoura.svg');
+  background-image: url('https://www.infoescola.com/wp-content/uploads/2010/08/cenoura_250834906.jpg');
 }
 .product-img.milho {
-  background-image: url('/imgs/produtos/milho.svg');
+  background-image: url('https://uploads.metropoles.com/wp-content/uploads/2023/04/07120634/milho-3.jpg');
 }
 .product-img.alho {
-  background-image: url('/imgs/produtos/alho.svg');
+  background-image: url('https://www.petz.com.br/blog/wp-content/uploads/2021/12/como-fazer-muda-de-alho-2.jpg');
 }
 
 .product-details {
@@ -147,5 +155,9 @@
 @media (max-width: 640px) {
   #container-promocao-semana .texto {
     bottom: 140px;
+  }
+
+  #container-pesquisa {
+    padding: 0 5%;
   }
 }

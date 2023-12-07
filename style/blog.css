@@ -1,6 +1,5 @@
 main {
   margin: 0 auto 6rem auto;
-  max-width: 1460px;
 }
 
 * {
@@ -34,60 +33,59 @@ main {
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.274);
-  text-align: center;
+
   color: black;
 }
 
 #search-bar-container {
   width: 80%;
   margin: 2rem auto;
-  text-align: center;
   position: relative;
 }
 
 .search-bar {
   height: 50px;
   width: 100%;
-  margin-top: 4rem;
+
   border-radius: 4px;
   border: none;
   border: 1px solid rgba(128, 128, 128, 0.281);
   padding: 1rem;
   background: #ececec;
   font-size: 18px;
-  margin-bottom: 6rem;
+  margin: 0.5rem 0 2rem 0;
 }
 
 #search-bar-container p {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #search-icon {
   opacity: 0.5;
   height: 20px;
   position: absolute;
-  top: 87%;
+  top: 47%;
   right: 1%;
   transform: translate(-50%, -50%);
 }
 
 #posts-container {
   display: flex;
-  justify-content: space-between;
   width: 80%;
   margin: 0 auto;
   flex-wrap: wrap;
   row-gap: 4rem;
+  column-gap: 4rem;
 }
 
 .post-card {
-  width: 550px;
-  height: 700px;
+  height: 630px;
   margin: 0 auto;
   background: #059954;
   border-radius: 20px;
   box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.199);
+  flex: 1 1 370px;
 }
 
 .post-img {
@@ -95,22 +93,23 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 20px 20px 20 0;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .post-img.salada {
-  background: url('/imgs/pictures/salada.svg');
+  background-image: url('https://images.elle.com.br/2022/12/avec_salada-grega-620x413.jpg');
 }
 
 .post-img.suco {
-  background: url('/imgs/pictures/suco.svg');
+  background-image: url('https://s2-oglobo.glbimg.com/YyUC_KRFzV2nRNd8OVaN2O6iBuo=/0x0:5257x3505/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/o/M/S3B6yZQYOrjtTTBNEMLQ/copo-de-suco-de-laranja-e-uma-pessoa-espremendo-uma-laranja-nele.jpg');
 }
 
 .post-img.acai {
-  background: url('/imgs/pictures/acai.svg');
+  background-image: url('https://www.nutribesa.com.br/images/receitas/acai.jpg');
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
   background-size: cover;
+  background-position: cover;
 }
 
 .container-info {
@@ -130,11 +129,11 @@ main {
 .post-details {
   letter-spacing: 2px;
 }
-
+/* 
 .post-card:last-child {
   width: 97%;
   height: 600px;
-}
+} */
 
 @media (max-width: 640px) {
   #posts-container {
@@ -145,7 +144,11 @@ main {
     padding: 1rem;
   }
 
-  .post-card:last-child {
-    height: 850px;
+  .post-card {
+    height: 650px;
+  }
+
+  #search-bar-container {
+    width: 95%;
   }
 }
