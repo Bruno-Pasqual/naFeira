@@ -8,7 +8,6 @@
 
 .funcionamento-container {
   background: #059954;
-  width: 100vw;
   margin-bottom: 120px;
   padding: 6rem 20%;
   display: flex;
@@ -32,10 +31,10 @@
 }
 
 .planos-container .cards-container {
-  width: 70vw;
+  width: 75vw;
   margin: 0 auto 120px auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .planos-container h2 {
@@ -64,7 +63,7 @@
 }
 
 .card-plano:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   box-shadow: 9px 15px 6px #05995413;
 }
 
