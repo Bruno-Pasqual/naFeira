@@ -26,48 +26,37 @@
 #container-promocao-semana {
   background-color: black;
   background: url('https://www.lotescbl.com.br/wp-content/uploads/2019/04/feiras-livres.jpg');
-  height: 300px;
-  border-radius: 8px;
+  height: 400px;
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
-  max-width: 1460px;
-  margin: 6rem auto 8rem auto;
-  background-position-y: 20px;
+  margin: 0 auto 8rem auto;
+  background-position-y: -5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 12%;
+  row-gap: 2rem;
 }
 
-.container-title {
-  position: absolute;
-  top: -45px;
-  left: 10px;
-  color: black;
-  font-weight: 600;
-  font-size: 20px;
-}
-
-#container-promocao-semana .texto {
-  position: absolute;
-  bottom: 40px;
-  left: 20px;
-  font-size: 1.5rem;
-  text-shadow: 20px 4px 5px rgb(0, 0, 0);
+#texto-cardapio {
+  font-size: 3rem;
+  text-shadow: 5px 4px 5px rgb(0, 0, 0);
   font-weight: 600;
 }
 
 #container-promocao-semana button {
   padding: 0.5rem 1.5rem;
   font-size: 1.2rem;
-  position: absolute;
-  right: 20px;
-  bottom: 40px;
   border-radius: 6px;
   border: none;
   background-color: #f25c05;
-  box-shadow: 7px 6px 5px rgba(0, 0, 0, 0.658);
+  box-shadow: 7px 6px 5px rgba(0, 0, 0, 0.226);
   color: white;
   letter-spacing: 1px;
   cursor: pointer;
+  max-width: 200px;
 }
 
 #container-sugestoes-chef {
@@ -85,6 +74,7 @@
   flex-wrap: wrap;
   gap: 60px 120px;
   justify-content: center;
+  position: relative;
 }
 
 .product-card {
@@ -154,6 +144,21 @@
 }
 
 @media (max-width: 640px) {
+  .container-title {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    font-size: 2rem;
+    text-shadow: 20px 4px 5px rgb(0, 0, 0);
+  }
+
+  #container-promocao-semana {
+    margin: 0 auto 8rem auto;
+    background-position-y: 0;
+    row-gap: 1rem;
+    padding-left: 5%;
+  }
+
   #container-promocao-semana .texto {
     bottom: 140px;
   }
@@ -170,5 +175,15 @@
   #container-pesquisa input {
     width: 90%;
     margin: 0 auto;
+  }
+
+  #texto-cardapio {
+    font-size: 1.5rem;
+  }
+
+  #container-promocao-semana button {
+    height: 2.5rem;
+    max-width: 150px;
+    font-size: 1rem;
   }
 }

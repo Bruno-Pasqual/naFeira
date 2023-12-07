@@ -20,6 +20,9 @@ main {
   background-position: center;
   mix-blend-mode: multiply;
   opacity: 0.5;
+  position: relative;
+  top: 4.2rem;
+  margin-bottom: 6rem;
 }
 
 #header-container {
@@ -28,25 +31,24 @@ main {
 
 #titulo-pagina {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.274);
-
+  text-align: left;
   color: black;
 }
 
 #search-bar-container {
   width: 80%;
-  margin: 2rem auto;
+  margin: 6rem auto 2rem auto;
   position: relative;
 }
 
 .search-bar {
   height: 50px;
   width: 100%;
-
   border-radius: 4px;
   border: none;
   border: 1px solid rgba(128, 128, 128, 0.281);
@@ -150,5 +152,22 @@ main {
 
   #search-bar-container {
     width: 95%;
+  }
+
+  #plano-fundo {
+    top: 0;
+  }
+
+  #titulo-pagina {
+    top: 50%;
+  }
+
+  #search-bar-container {
+    margin: 2rem auto 2rem auto;
+    position: relative;
+  }
+
+  #plano-fundo {
+    margin-bottom: 1rem;
   }
 }
