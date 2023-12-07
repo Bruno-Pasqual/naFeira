@@ -124,6 +124,7 @@
   display: flex;
   align-items: flex-start;
   column-gap: 2rem;
+  color: white;
 }
 
 .review-container {
