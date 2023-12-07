@@ -50,11 +50,18 @@ nav {
   font-weight: 600;
   color: #f25c05;
   text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.295);
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #f25c05;
 }
 
 #buttons-container {
   display: flex;
   column-gap: 10px;
+}
+
+#buttons-container button:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .nav-btn {

@@ -153,6 +153,10 @@
   color: white;
 }
 
+#login-modal #login-criar-conta-btn {
+  color: #059954;
+}
+
 @media (max-width: 640px) {
   /* modal 2 ---  */
 
