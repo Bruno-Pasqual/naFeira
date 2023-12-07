@@ -1,8 +1,8 @@
-const registerButton = document.querySelector('#create-btn');
-const loginButton = document.querySelector('#create-btn');
+const createBtn = document.querySelector('#create-btn');
+const entrarBtn = document.querySelector('#entrar-btn');
 
-const registerModal = document.querySelector('#register-modal');
+const createModal = document.querySelector('#create-modal');
 
-registerButton.addEventListener('click', () => {
-  registerModal.showModal();
+createBtn.addEventListener('click', () => {
+  createModal.showModal();
 });
