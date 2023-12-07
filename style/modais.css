@@ -1,5 +1,5 @@
 #create-account-modal {
-  padding: 6rem 4rem;
+  padding: 3rem 4rem;
   border-radius: 8px;
   border: none;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.295);
@@ -10,8 +10,17 @@
   background-color: #059954;
 }
 
+#create-account-modal .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+}
+
 #create-account-modal::backdrop {
-  background: rgba(0, 0, 0, 0.692);
+  background-image: url('/imgs/pictures/fundo1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #divisao {
@@ -57,11 +66,6 @@
   background: #f25c05;
   color: white;
   font-weight: 600;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  bottom: 0;
-  cursor: pointer;
 }
 
 #create-account-modal button:hover {
@@ -80,13 +84,104 @@
   left: 10px;
 }
 
-@media (max-width: 840px) {
-  #divisao {
-    flex-direction: column;
-    width: 90%;
+#logo-modal {
+  height: 100px;
+  margin-bottom: 2rem;
+}
+
+/* Modal 2 -------------------------------- */
+
+#login-modal::backdrop {
+  /*   background-image: url('/imgs/pictures/fundo2.png');
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+  background: rgba(0, 0, 0, 0.644);
+}
+
+#login-modal {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  border-radius: 8px;
+  /* box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.397); */
+}
+
+#login-modal .container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background: none;
+  background: #059954;
+  padding: 4rem 2rem;
+  row-gap: 0.75rem;
+}
+
+#login-modal .container > * {
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+#login-modal .container > *:first-child {
+  margin-bottom: 2rem;
+}
+
+#login-modal input {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+#login-modal button {
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+}
+
+#login-modal button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#login-modal .botao-primario {
+  background: #f25c05;
+  color: white;
+}
+
+@media (max-width: 640px) {
+  /* modal 2 ---  */
+
+  #login-modal .container {
+    width: 90vw;
   }
 
+  /* Modal 1 --- */
+
+  #divisao {
+    flex-direction: column;
+    width: 340px;
+    align-items: center;
+  }
+
+  #divisao:first-child {
+    margin: 0;
+  }
   #create-account-modal {
     top: 52%;
+    padding: 4rem 0.5rem;
+  }
+
+  #create-account-modal button {
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  #create-account-modal input {
+    width: 100%;
   }
 }
