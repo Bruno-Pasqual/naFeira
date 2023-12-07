@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   height: 160px;
-  width: 100vw;
   background: #059954;
   justify-content: space-between;
   padding: 4.5rem 10% 0 10%;
@@ -27,7 +26,6 @@
   background-color: black;
   background: url('https://www.lotescbl.com.br/wp-content/uploads/2019/04/feiras-livres.jpg');
   height: 400px;
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -44,6 +42,7 @@
   font-size: 3rem;
   text-shadow: 5px 4px 5px rgb(0, 0, 0);
   font-weight: 600;
+  max-width: 700px;
 }
 
 #container-promocao-semana button {
