@@ -1,0 +1,18 @@
+#create-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 70%;
+  border: none;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 3px 5px 6px black;
+  background: #059954;
+}
+
+#create-modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.822);
+}
